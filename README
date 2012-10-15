@@ -1,0 +1,39 @@
+    README file for the `G-Modules' GAP4 package
+        
+To get the newest version of this GAP 4 package download one of the
+archive files
+    G-Modules-x.x.tar.gz
+    G-Modules-x.x.zoo
+    G-Modules-x.x.tar.bz2
+    G-Modules-x.x.zip
+and unpack it using 
+    gunzip G-Modules-x.x.tar.gz; tar xvf G-Modules-x.x.tar
+respectively
+    unzoo -x G-Modules-x.x.zoo
+and so on.
+
+(Note that if you use a browser like `netscape' for downloading the
+archive file the `gunzip' step above may already be done by the browser,
+although the name of your file may still have the misleading `.gz'
+extension.)
+
+Do this preferably (but not necessarily) inside the `pkg' subdirectory
+of your GAP 4 installation. It creates a subdirectory called `G-Modules'.
+
+This completes the installation of the package.
+
+Testing the package is possible by invoking
+
+ReadPackage( "G-Modules", "maketest.g" );
+
+from within GAP.
+
+You also need the package Modules from the G-Modules project to run the test.
+You can download it from:
+http://G-Modules.math.rwth-aachen.de/~barakat/G-Modules-project/
+
+E-mail me if there are any questions, remarks, suggestions. Also, I
+would be pleased to hear about applications of this package.
+
+
+Mohamed Barakat, e-mail: barakat@mathematik.uni-kl.de
